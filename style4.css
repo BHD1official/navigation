@@ -39,7 +39,6 @@ body {
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-
 #nav {
     position: fixed;
     display: flex;
@@ -275,7 +274,6 @@ a {
 /* 2 ///////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .side-part {
-
     width: 100%;
     height: fit-content;
     padding: 2vh 5vw;
@@ -286,7 +284,7 @@ a {
     list-style: none;
     list-style-type: decimal;
     padding: 0;
-    margin: 1vh 0;
+    margin: 0.7vh 0;
     font-weight: 100;
 }
 
@@ -303,11 +301,11 @@ a {
 .table3 {
     border-collapse: collapse;
     width: 100%;
-    margin-top: 2vh;
+    margin-top: 1.5vh;
 }
 
 .table3 tr th , .table3 tr td  {
-    padding: 1.5vh 1vw;
+    padding: 1vh 1vw;
 }
 
 
@@ -336,7 +334,7 @@ a {
     margin-right: auto;
     padding: 5%;
     position: absolute;
-    top: 3vh;
+    top: 0vh;
     left: 5vw;
     border-radius: 100%;
 }
@@ -824,7 +822,7 @@ a {
 #content-div22>.side-part>div:first-of-type {
     position: absolute;
     left: 50%;
-    top: 10vh;
+    top: 5vh;
     transform: translateX(-50%);
     width: 80vw;
     background-color: #ffffff56;
@@ -842,7 +840,7 @@ a {
 #content-div22>div>h4 {
     width: 90vw;
     height: 20vh;
-    top: 40vh;
+    top: 35vh;
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -852,7 +850,7 @@ a {
 }
 
 #content-div22>div>h4 {
-    top: 45vh;
+    top: 40vh;
 }
 
 /* 23 ///////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -863,7 +861,7 @@ a {
     margin-top: 8vh;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 30%;
     animation: blincking 2s infinite;
 }
 
@@ -874,21 +872,21 @@ a {
 .table24 tr th {
     border: 0.1rem solid #ddd;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .table24 {
     border-collapse: collapse;
     width: 100%;
-    margin-top: -2vh;
+    margin-top: -4vh;
 }
 
 .table24 tr th {
-    padding: 1vh 1vw;
+    padding: 0.2vh 1vw;
 }
 
 .table24 tr td {
-    height: 10vh;
+    height: 6vh;
 }
 
 .show-td {
@@ -896,7 +894,7 @@ a {
 }
 
 .table24 .tr-txt td {
-    height: 13vh;
+    height: 10vh;
 }
 
 .arrow2 {
@@ -938,7 +936,7 @@ a {
 
 .slide-up {
     margin: auto;
-    margin-top: -2vh;
+    margin-top: -10vh;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -953,7 +951,6 @@ a {
     height: 25vh;
     animation: slideInUp 2s ease-out forwards;
 }
-
 
 @keyframes tapThat {
     0% {
@@ -1005,7 +1002,7 @@ a {
     }
 
     100% {
-        margin-top: -15vh;
+        margin-top: -5vh;
     }
 }
 
@@ -1030,8 +1027,9 @@ a {
 /* 26 ///////////////////////////////////////////////////////////////////////////////////////////////// */
 
 #content-div26>.side-part>ul:nth-of-type(2)>li {
-    margin: 1.5vh 2vw;
+    margin: 1vh 2vw;
     list-style-image: url('media4/arrow-to-left.png');
+    font-size: 1rem;
 }
 
 #content-div26>.side-part {
@@ -1044,7 +1042,7 @@ a {
     height: 50vh;
     position: absolute;
     left: 50%;
-    top: 10vh;
+    top: 5vh;
     transform: translateX(-50%);
     width: 100vw;
     background-color: #ffffff56;
